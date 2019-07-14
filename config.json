@@ -1,0 +1,35 @@
+{
+    "path": "./",
+    "keywords": [
+        {
+            "text": "TODO",
+            "color": "yellow",
+            "priority": 3
+        },
+        {
+            "text": "URGENT",
+            "color": "magenta",
+            "priority": 1
+        },
+        {
+            "text": "IMPORTANT",
+            "color": "green",
+            "priority": 2
+        },
+        {
+            "text": "BUG",
+            "color": "cyan",
+            "priority": 4
+        },
+        {
+            "text": "DANGER",
+            "color": "red",
+            "priority": 4
+        }
+    ],
+    "excluded": [
+        "*.json",
+        "cmd/*.go",
+        "universalist.go"
+    ]
+}
