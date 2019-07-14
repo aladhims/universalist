@@ -15,10 +15,9 @@ var (
 	indent     bool
 )
 
-//TODO: initiate later
 func init() {
-	path = *flag.String("path", "./", "the path of the workdir that will be scanned")
-	configPath = *flag.String("config", "", "config path for overwriting default config values")
+	flag.StringVar(&path, "path", "./", "the path of the workdir that will be scanned")
+	flag.StringVar(&configPath, "config", "", "config path for overwriting default config values")
 	flag.BoolVar(&indent, "indent", false, "The output will be indented if the flag is specified")
 }
 
